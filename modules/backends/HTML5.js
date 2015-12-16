@@ -8,7 +8,7 @@ var DragDropActionCreators = require('../actions/DragDropActionCreators'),
     isUrlDragDropEvent = require('../utils/isUrlDragDropEvent'),
     isNativeDraggedItemType = require('../utils/isNativeDraggedItemType'),
     configureDataTransfer = require('../utils/configureDataTransfer'),
-    shallowEqual = require('react/lib/shallowEqual'),
+    shallowEqual = require('shallowequal'),
     isWebkit = require('../utils/isWebkit');
 
 const ELEMENT_NODE = 1;
